@@ -1,6 +1,6 @@
-1. Backend Setup
+### 1. Backend Setup
 - Go inside backend folder:
-  cd backend
+>  cd backend
 
 - Create virtual environment:
   python -m venv venv
