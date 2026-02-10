@@ -100,24 +100,42 @@ This tool automates that process using LLMs and generates structured output in s
 
 01_Test_Artifacts_Generator/
 │
+
 ├── backend/
+
 │ ├── app/
+
 │ │ ├── main.py
+
 │ │ ├── config.py
+
 │ │ └── chains/
+
 │ │ ├── artifact_chain.py
+
 │ │ └── prompts.py
+
 │ │
+
 │ ├── requirements.txt
+
 │ └── .env
+
 │
 ├── frontend/
+
 │ └── app.py
+
 │
+
 ├── Projects_Evidence/
+
 │ ├── screenshots/
+
 │ └── demo-video/
+
 │
+
 └── README.md
 
 
