@@ -17,6 +17,8 @@
 >  pip install -r requirements.txt
 
 
+
+
 ### - 🔑 Groq API Key Setup (FREE)
 
 **Step 1: Create Groq Account**
@@ -39,6 +41,8 @@
  - 📄 backend/.env
 
 >  GROQ_API_KEY=your_groq_api_key_here
+
+
 
 
 **- Create .env file (Groq API Key)**
@@ -80,17 +84,8 @@
 
 │ └── app.py
 
-│
 
-├── Projects_Evidence/
 
-│ ├── screenshots/
-
-│ └── demo-video/
-
-│
-
-└── README.md
 
 ### - After adding all folder and codes
   
