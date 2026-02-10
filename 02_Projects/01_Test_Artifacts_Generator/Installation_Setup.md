@@ -14,6 +14,28 @@
 - Install dependencies:
   pip install -r requirements.txt
 
+- 🔑 Groq API Key Setup (FREE)
+Step 1: Create Groq Account
+
+Go to:
+https://console.groq.com
+
+Step 2: Create API Key
+
+ - Go to API Keys
+
+ - Click Create Key
+
+ - Copy the key
+
+Step 3: Create .env
+
+ Inside backend/ folder create:
+
+ - 📄 backend/.env
+
+GROQ_API_KEY=your_groq_api_key_here
+
 - Create .env file (Groq API Key)
   Inside:
   backend/.env
@@ -43,4 +65,33 @@
 │ └── demo-video/
 │
 └── README.md
+
+- After adding all folder and codes
+  2️⃣ Run Backend
+
+Inside backend folder run:
+
+uvicorn app.main:app --reload
+
+
+Backend will start at:
+👉 http://127.0.0.1:8000
+
+
+3️⃣ Run Frontend
+
+Open a new terminal.
+
+Go to project root:
+
+cd ..
+
+
+Run Streamlit:
+
+streamlit run frontend/app.py
+
+
+Frontend will start at:
+👉 http://localhost:8501
 
