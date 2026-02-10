@@ -126,17 +126,6 @@ This tool automates that process using LLMs and generates structured output in s
 
 │ └── app.py
 
-│
-
-├── Projects_Evidence/
-
-│ ├── screenshots/
-
-│ └── demo-video/
-
-│
-
-└── README.md
 
 
 
