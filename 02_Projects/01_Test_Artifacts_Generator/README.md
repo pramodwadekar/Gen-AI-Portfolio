@@ -3,11 +3,28 @@
 TestCraft AI is a GenAI-powered application that converts a plain English requirement/user story into complete QA test artifacts such as:
 
 - ✅ Test Scenarios
+
 - 🧪 Detailed Test Cases
-- 📌 BDD Feature File (Gherkin)
+
+- 📌 BDD Feature (Gherkin)
+
 - 🧾 Test Data
 
+- ⬇️ Test Cases Excel Export
+
+- ⬇️ .feature File Download
+
 This project is designed for QA/SDET engineers to speed up manual test design and documentation using LLMs.
+
+- Real-world QA artifact generation
+
+- Backend + Frontend architecture
+
+- LLM integration
+
+- Robust JSON parsing
+
+- Excel export capability
 
 ---
 
@@ -31,6 +48,8 @@ This tool automates that process using LLMs and generates structured output in s
 ✅ Requirement + Scenarios → Detailed Test Cases (JSON)  
 ✅ Requirement → BDD Feature File (JSON → Gherkin)  
 ✅ Requirement → Test Data (JSON)  
+✅ Excel Export
+✅ .feature File Download
 
 ### ⭐ UI Features
 - Clean Streamlit UI
@@ -53,12 +72,27 @@ This tool automates that process using LLMs and generates structured output in s
 - **LangChain** – Prompt + LLM orchestration
 - **Groq API** – Free LLM inference
 - **Pydantic** – Request validation
+- **Uvicorn** – Server for FastAPI
 - **python-dotenv** – Environment variable management
 
 ### Frontend
 - **Streamlit** – UI for requirement input and output display
 - **Pandas** – Display tables + prepare Excel export
 - **OpenPyXL** – Excel export formatting
+
+### 📌 Why These Libraries?
+
+| Library        | Why Used                                                 |
+| -------------- | -------------------------------------------------------- |
+| fastapi        | To build a clean and fast backend API                    |
+| uvicorn        | To run FastAPI server                                    |
+| python-dotenv  | To load Groq API key from `.env`                         |
+| pydantic       | For validating incoming JSON request                     |
+| langchain      | For clean prompt handling + LLM calls                    |
+| langchain-groq | Groq integration for LangChain                           |
+| pandas         | Display tables + Excel export                            |
+| openpyxl       | Format Excel: wrap text, auto column width, bold headers |
+
 
 ---
 
