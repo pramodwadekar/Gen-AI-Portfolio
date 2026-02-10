@@ -193,6 +193,15 @@ backend/app/chains/artifact_chain.py
 
 ✅ Deploy to cloud (Render / Railway)
 
+
+### Project Explaination:
+
+✅ “I built an AI-powered test artifact generator”
+✅ “It converts requirements into structured test scenarios, test cases, BDD and test data”
+✅ “It includes robust JSON extraction and schema enforcement”
+✅ “It supports Excel export and feature file download”
+✅ “It uses FastAPI + Streamlit + LangChain + Groq”
+
 **👨‍💻 Author**
 
 Pramod Wadekar
