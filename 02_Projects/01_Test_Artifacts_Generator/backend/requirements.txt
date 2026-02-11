@@ -4,5 +4,7 @@ python-dotenv
 pydantic
 langchain
 langchain-groq
-pydantic
 openpyxl
+streamlit
+pandas
+requests
