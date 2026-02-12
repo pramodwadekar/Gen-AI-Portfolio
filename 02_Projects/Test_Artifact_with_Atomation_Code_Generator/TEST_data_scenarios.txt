@@ -1,0 +1,136 @@
+api key for pap:AIzaSyBo29xnUyD3byYekDFKKlge3WJOpH5s8-g
+
+
+
+
+✅ 1) Project Name 
+
+- ShopKart (E-commerce Web App)
+
+✅ 2) Short Description
+
+Example (E-commerce):
+
+This is an e-commerce web application where users can browse products, search, add items to cart, place orders, and track delivery. Admin can manage products, inventory, and orders.
+
+✅ 3) Key Features / Modules (Most important field)
+
+Example (E-commerce):
+
+- User Registration & Login
+
+- Product Search + Filters
+
+- Product Details Page
+
+- Add to Cart / Remove from Cart
+
+- Checkout + Payment
+
+- Order History + Tracking
+
+- Admin Product Management
+
+✅ 4) Target Platforms (web/mobile/api)
+
+Examples:
+
+Web, Mobile (Android + iOS), Web + API, Only API, Web + Mobile + API
+
+✅ 5) Non-functional Concerns (Performance, Security, Usability)
+
+Example:
+
+Performance: pages should load under 3 seconds
+
+Security: authentication, OTP, session timeout
+
+Usability: responsive UI
+
+Reliability: no duplicate transactions
+
+Compliance: audit logs
+
+✅ 6) Testing Scope & Constraints (time/tools/resources)
+
+Example:
+
+Timeline: 2 weeks testing window
+
+Tools: Selenium, Playwright, Postman
+
+Resources: 1 QA, 1 Automation engineer
+
+Constraints: payment gateway sandbox only
+
+Test environments: QA + UAT
+
+
+===========================================================
+
+
+
+✅ 1) Project Name 
+
+BankEase (Digital Banking App)
+
+
+✅ 2) Short Description
+
+Example (Banking):
+
+A digital banking application that allows customers to login, view account balance, transfer money, pay bills, and manage beneficiaries securely.
+
+✅ 3) Key Features / Modules (Most important field)
+
+Example (Banking):
+
+Login + OTP
+
+Account Summary
+
+Add Beneficiary
+
+Money Transfer (NEFT/IMPS)
+
+Transaction History
+
+Profile + KYC
+
+Security (lock account after attempts)
+
+✅ 4) Target Platforms (web/mobile/api)
+
+Example:
+
+Web + API
+
+✅ 5) Non-functional Concerns (Performance, Security, Usability)
+
+Example:
+
+Performance: pages should load under 3 seconds
+
+Security: authentication, OTP, session timeout
+
+Usability: responsive UI
+
+Reliability: no duplicate transactions
+
+Compliance: audit logs
+
+✅ 6) Testing Scope & Constraints (time/tools/resources)
+
+Example:
+
+Timeline: 2 weeks testing window
+
+Tools: Selenium, Playwright, Postman
+
+Resources: 1 QA, 1 Automation engineer
+
+Constraints: payment gateway sandbox only
+
+Test environments: QA + UAT
+
+
